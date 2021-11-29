@@ -6,3 +6,5 @@
 ![Create project](https://raw.githubusercontent.com/teterevlev/STM32_No_HAL/main/Examples/stm32f103_blink/Images/1.create.png)
 
 4. Enter **name** and **location** of your project. Set Targeted language to **C++** and **Empty** project type
+
+![Create project](https://raw.githubusercontent.com/teterevlev/STM32_No_HAL/main/Examples/stm32f103_blink/Images/2.configure.png)
