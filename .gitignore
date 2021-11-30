@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+Examples/stm32f411re_blink/.cproject
+Examples/stm32f411re_blink/.project
+Examples/stm32f411re_blink/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs
+Examples/stm32f411re_blink/.settings/language.settings.xml
+Examples/stm32f411re_blink/Debug/makefile
+Examples/stm32f411re_blink/Debug/objects.list
+Examples/stm32f411re_blink/Debug/objects.mk
+Examples/stm32f411re_blink/Debug/sources.mk
+Examples/stm32f411re_blink/Debug/Src/main.su
+Examples/stm32f411re_blink/Debug/Src/subdir.mk
+Examples/stm32f411re_blink/Debug/Src/syscalls.su
+Examples/stm32f411re_blink/Debug/Src/sysmem.su
+Examples/stm32f411re_blink/Debug/Startup/subdir.mk
+Examples/stm32f411re_blink/Debug/stm32f411re_blink.bin
+Examples/stm32f411re_blink/Debug/stm32f411re_blink.elf
+Examples/stm32f411re_blink/Debug/stm32f411re_blink.list
+Examples/stm32f411re_blink/Debug/stm32f411re_blink.map
+Examples/stm32f411re_blink/Src/syscalls.c
+Examples/stm32f411re_blink/Src/sysmem.c
+Examples/stm32f411re_blink/Startup/startup_stm32f411retx.s
+Examples/stm32f411re_blink/stm32f411re_blink Debug.launch
+Examples/stm32f411re_blink/STM32F411RETX_FLASH.ld
+Examples/stm32f411re_blink/STM32F411RETX_RAM.ld

@@ -1,4 +1,4 @@
-#STM32F103c8t6 Led Blink Example without HAL
+# STM32F103c8t6 Led Blink Example without HAL
 1. Download and run STM32CubeIDE.
 2. Press File -> New -> STM32 Project.
 3. Select your device. Here it is STM32F103c8t6:
@@ -19,11 +19,12 @@
 
 7. Add these two paths (they should exist):
 
-> C:\Users\%USERNAME%\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.0\Drivers\CMSIS\Include
-> C:\Users\%USERNAME%\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.0\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+> C:\Users\\**%USERNAME%**\STM32Cube\Repository\\**STM32Cube_FW_F1_V1.8.0**\Drivers\CMSIS\Include
+> C:\Users\\**%USERNAME%**\STM32Cube\Repository\\**STM32Cube_FW_F1_V1.8.0**\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 
-%USERNAME% - your username on your PC
-STM32Cube_FW_F1_V1.8.0 can have another version
+*%USERNAME%* - your username on your PC
+
+*STM32Cube_FW_F1_V1.8.0* can have another version
 
 8. Rename **main.c** to **main.cpp**
 
