@@ -53,3 +53,27 @@ Examples/stm32f411re_blink/Startup/startup_stm32f411retx.s
 Examples/stm32f411re_blink/stm32f411re_blink Debug.launch
 Examples/stm32f411re_blink/STM32F411RETX_FLASH.ld
 Examples/stm32f411re_blink/STM32F411RETX_RAM.ld
+Examples/stm32f411re_Timer+PWM+DeadTime/.cproject
+Examples/stm32f411re_Timer+PWM+DeadTime/.project
+Examples/stm32f411re_Timer+PWM+DeadTime/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs
+Examples/stm32f411re_Timer+PWM+DeadTime/.settings/language.settings.xml
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/makefile
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/objects.list
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/objects.mk
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/sources.mk
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/Src/main.su
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/Src/subdir.mk
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/Src/syscalls.su
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/Src/sysmem.su
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/Startup/subdir.mk
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/stm32f411re_Timer+PWM+DeadTime.bin
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/stm32f411re_Timer+PWM+DeadTime.elf
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/stm32f411re_Timer+PWM+DeadTime.list
+Examples/stm32f411re_Timer+PWM+DeadTime/Debug/stm32f411re_Timer+PWM+DeadTime.map
+Examples/stm32f411re_Timer+PWM+DeadTime/Src/syscalls.c
+Examples/stm32f411re_Timer+PWM+DeadTime/Src/sysmem.c
+Examples/stm32f411re_Timer+PWM+DeadTime/Startup/startup_stm32f411retx.s
+Examples/stm32f411re_Timer+PWM+DeadTime/stm32f411re_blink Debug.launch
+Examples/stm32f411re_Timer+PWM+DeadTime/stm32f411re_Timer+PWM+DeadTime Debug.launch
+Examples/stm32f411re_Timer+PWM+DeadTime/STM32F411RETX_FLASH.ld
+Examples/stm32f411re_Timer+PWM+DeadTime/STM32F411RETX_RAM.ld

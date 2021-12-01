@@ -20,6 +20,7 @@
 7. Add these two paths (they should exist):
 
 > C:\Users\\**%USERNAME%**\STM32Cube\Repository\\**STM32Cube_FW_F1_V1.8.0**\Drivers\CMSIS\Include
+>
 > C:\Users\\**%USERNAME%**\STM32Cube\Repository\\**STM32Cube_FW_F1_V1.8.0**\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 
 *%USERNAME%* - your username on your PC
