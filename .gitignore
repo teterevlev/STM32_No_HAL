@@ -148,3 +148,26 @@ Examples/stm32_SysTick/Startup/startup_stm32f411retx.s
 Examples/stm32_SysTick/stm32f411re_SysTick Debug.launch
 Examples/stm32_SysTick/STM32F411RETX_FLASH.ld
 Examples/stm32_SysTick/STM32F411RETX_RAM.ld
+Examples/stm32f411re_UART/.cproject
+Examples/stm32f411re_UART/.project
+Examples/stm32f411re_UART/.settings/language.settings.xml
+Examples/stm32f411re_UART/Debug/makefile
+Examples/stm32f411re_UART/Debug/objects.list
+Examples/stm32f411re_UART/Debug/objects.mk
+Examples/stm32f411re_UART/Debug/sources.mk
+Examples/stm32f411re_UART/Debug/Src/main.su
+Examples/stm32f411re_UART/Debug/Src/subdir.mk
+Examples/stm32f411re_UART/Debug/Src/syscalls.su
+Examples/stm32f411re_UART/Debug/Src/sysmem.su
+Examples/stm32f411re_UART/Debug/Startup/subdir.mk
+Examples/stm32f411re_UART/Debug/stm32f411re_uart.bin
+Examples/stm32f411re_UART/Debug/stm32f411re_uart.elf
+Examples/stm32f411re_UART/Debug/stm32f411re_uart.list
+Examples/stm32f411re_UART/Debug/stm32f411re_uart.map
+Examples/stm32f411re_UART/Src/syscalls.c
+Examples/stm32f411re_UART/Src/sysmem.c
+Examples/stm32f411re_UART/Startup/startup_stm32f411retx.s
+Examples/stm32f411re_UART/stm32f411re_SysTick Debug.launch
+Examples/stm32f411re_UART/stm32f411re_uart Debug.launch
+Examples/stm32f411re_UART/STM32F411RETX_FLASH.ld
+Examples/stm32f411re_UART/STM32F411RETX_RAM.ld
