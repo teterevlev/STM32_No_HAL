@@ -171,3 +171,4 @@ Examples/stm32f411re_UART/stm32f411re_SysTick Debug.launch
 Examples/stm32f411re_UART/stm32f411re_uart Debug.launch
 Examples/stm32f411re_UART/STM32F411RETX_FLASH.ld
 Examples/stm32f411re_UART/STM32F411RETX_RAM.ld
+*.su
