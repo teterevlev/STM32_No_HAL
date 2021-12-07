@@ -31,7 +31,7 @@ int main ( void ){
 
 	for ( ;; ) {
 		GPIOA->ODR ^= GPIO_ODR_OD5;
-		delay(500);
+		delay(100);
 	}
 }
 
