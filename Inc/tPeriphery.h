@@ -7,6 +7,10 @@ enum{PUSHPULL, OPENDRAIN};
 enum{LOW, MEDIUM, FAST, VERYFAST};
 enum {OFF, ON};
 enum {PULLUP=1, PULLDOWN};
+struct{
+	enum {SYSTEM, TIM1_2, TIM3_5, TIM9_11, I2C1_3, SPI1_4, SPI3_5, USART1_2, USART6, I2C2_3, OTG_FS, SDIO=12, EVENTOUT=15};
+} AFs;
+
 
 class GPIO_Port{
 	private:

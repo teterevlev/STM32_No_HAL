@@ -1,10 +1,3 @@
-/*
- * tPeriphery.cpp
- *
- *  Created on: 7 дек. 2021 г.
- *      Author: odama
- */
-
 #include "tPeriphery.h"
 
 GPIO_Port::GPIO_Port(GPIO_TypeDef * port, uint32_t AHB1ENR_bit):

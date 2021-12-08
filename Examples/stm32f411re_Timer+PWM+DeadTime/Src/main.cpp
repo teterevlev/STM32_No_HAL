@@ -1,5 +1,5 @@
-/* The reset and clock control module */
 #include <stm32f411xe.h>
+#include <tPeriphery.h>
 uint32_t clocksPerSecond = 7200000;
 uint32_t clocksPerMillie = clocksPerSecond/1000;
 void delay (uint32_t millis){
@@ -7,7 +7,10 @@ void delay (uint32_t millis){
 
 	while ( count-- );
 }
+
+GPIO_Port PortA(GPIOA, RCC_AHB1ENR_GPIOAEN), PortB(GPIOB, RCC_AHB1ENR_GPIOBEN);
 int main ( void ){
+	AFs.a;
 
 	// clock
 	RCC->CR = RCC_CR_PLLON;	// enable PLL
@@ -19,20 +22,14 @@ int main ( void ){
 
 	// clock periphery
 	RCC->APB2ENR = RCC_APB2ENR_TIM1EN;
-	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN;
-	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOBEN;
+	PortA.clock();
+	PortB.clock();
 
 	// gpio
-	GPIOA->MODER =
-			(1 << GPIO_MODER_MODER5_Pos) |				// output
-			(2 << GPIO_MODER_MODER9_Pos);				// alternative function
-	GPIOA->OTYPER = 0;									// pushpull
-	GPIOA->OSPEEDR =
-			(3 << GPIO_OSPEEDR_OSPEED5_Pos) |
-			(3 << GPIO_OSPEEDR_OSPEED9_Pos);			// fast as hell
-	GPIOB->MODER |= (2 << GPIO_MODER_MODER0_Pos);		// alternative function
-	GPIOB->OTYPER |= 0 << GPIO_OTYPER_OT0_Pos;			// pushpull
-	GPIOB->OSPEEDR |= 3 << GPIO_OSPEEDR_OSPEED0_Pos;	// fast as hell
+	PortA.output(5);
+	PortA.output(9, AF);
+	PortB.output(0, AF);
+
 
 	GPIOA->AFR[0] = 0;
 	GPIOA->AFR[1] = (1 << GPIO_AFRH_AFSEL9_Pos);
@@ -54,4 +51,3 @@ int main ( void ){
 	}
 }
 
-/* THE END */

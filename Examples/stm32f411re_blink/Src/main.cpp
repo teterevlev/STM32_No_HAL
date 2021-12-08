@@ -1,4 +1,3 @@
-/* The reset and clock control module */
 #include <stm32f411xe.h>
 #include "tPeriphery.h"
 
@@ -35,4 +34,3 @@ int main ( void ){
 	}
 }
 
-/* THE END */
